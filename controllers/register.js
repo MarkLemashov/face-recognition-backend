@@ -29,7 +29,7 @@ const registerPost = (db, bcrypt, saltRounds) => (req, res) => {
             })
         }
     })
-    .catch(err => 'unable to register');
+    .catch(err => res.status(400).json('error inserting into database'));
 }
 
 module.exports = {
