@@ -34,5 +34,5 @@ app.post('/register/', register.registerPost(db, bcrypt, saltRounds));
 app.put('/image', image.imagePut(db));
 
 app.listen(port, () => {
-    console.log('app is running on port ${port}');
+    console.log(`app is running on port ${port}`);
 })
