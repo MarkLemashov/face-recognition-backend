@@ -9,7 +9,7 @@ const validatePassword = (password) => {
 }
 
 const validateName = (name) => {
-    const re = /[a-zA-Z,]{1,20}/;
+    const re = /[a-zA-Z]{1,20}/;
     return(re.test(name));
 }
 const registerPost = (db, bcrypt, saltRounds) => (req, res) => {
