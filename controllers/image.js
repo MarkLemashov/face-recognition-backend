@@ -3,7 +3,7 @@ const imagePut = (db, clarifai) => (req, res) => {
     clarifai.models.predict(Clarifai.FACE_DETECT_MODEL, image_url)
         .then(response => {
             console.log(response);
-            res.status(200).json(response);
+            res.status(200).json(response.body);
             db('users').where('email', email).increment({entries: 1}).then();
           }
         )
