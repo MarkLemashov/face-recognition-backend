@@ -8,7 +8,7 @@ const validatePassword = (password) => {
     return(re.test(password));
 }
 
-const validateName(name) => {
+const validateName = (name) => {
     const re = /[a-zA-Z,]{1,20}/;
     return(re.test(name));
 }
