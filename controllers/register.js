@@ -20,7 +20,7 @@ const registerPost = (db, bcrypt, saltRounds) => (req, res) => {
             if(validatePassword(password)){
                 db.select('email').from('login').where('email', email).then(data => {
                     if(data.length > 0) {
-                        res.status(400).json('email exists');
+                        res.status(400).json('Email is already in use');
                     }
                     else {
                         db.transaction(trx => {
@@ -40,25 +40,25 @@ const registerPost = (db, bcrypt, saltRounds) => (req, res) => {
                                     })
                                     .catch(x => {
                                         trx.rollback(x);
-                                        res.status(400).json('error inserting into database');
+                                        res.status(400).json('Error inserting into database');
                                     })
                                 });
                             });
                         })
                     }
                 })
-                .catch(err => res.status(400).json('error inserting into database'));
+                .catch(err => res.status(400).json('Error inserting into database'));
             }
             else {
-                res.status(400).json('password must contain at least 4 non white space characters');
+                res.status(400).json('Password must contain at least 4 non white space characters');
             }
         }
         else{
-            res.status(400).json('invalid email address');
+            res.status(400).json('Invalid email address');
         }
     }
     else{
-        res.status(400).json('name must be between 1-20 characters long and can only contain letters');
+        res.status(400).json('Name must be between 1-20 characters long and can only contain letters');
     }
 }
 

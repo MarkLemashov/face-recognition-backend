@@ -12,12 +12,12 @@ const signinPost = (db, bcrypt) => (req, res) => {
                         db.select('*').from('users').where('email', email).then(user => res.status(200).json(user));
                     }
                     else {
-                        res.status(400).json('incorrect credentials');
+                        res.status(400).json('Incorrect credentials');
                     }
                 });
             }
             else {
-                res.status(400).json('incorrect credentials');
+                res.status(400).json('Incorrect credentials');
             }
         })
 };
