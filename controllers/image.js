@@ -4,7 +4,7 @@ const imagePut = (db, clarifai) => (req, res) => {
         .then(response => {
             faces_detected = response.outputs[0].data.regions.length;
 
-            res.status(200).json(faces_detected);
+            res.status(200).json(response.outputs[0].data.regions);
             db('users').where('email', email).increment({entries: 1, faces_detected: faces_detected}).then();
           }
         )
