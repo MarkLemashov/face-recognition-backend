@@ -25,7 +25,7 @@ let port = process.env.PORT;
 const saltRounds = 2;
 const app = express();
 
-app.use(bodyParser.json())
+// app.use(bodyParser.json())
 app.use(cors());
 
 app.get('/', (req, res) => {
