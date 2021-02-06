@@ -1,5 +1,6 @@
 const imagePut = (db, clarifai) => (req, res) => {
-    const { email, image_url } = req.body;
+    const { image_url } = req.body;
+    const email = req.user;
     clarifai.models.predict(Clarifai.FACE_DETECT_MODEL, image_url)
         .then(response => {
             faces_detected = response.outputs[0].data.regions.length;
