@@ -5,6 +5,7 @@ const cors = require('cors');
 const signin = require('./controllers/signin');
 const register = require('./controllers/register');
 const image = require('./controllers/image');
+const getuser = require('./controllers/getuser')
 const Clarifai = require('clarifai');
 const jwt = require('jsonwebtoken');
 const db = require('knex')({
@@ -55,6 +56,8 @@ app.post('/signin/', signin.signinPost(db, bcrypt, jwt, ACCESS_TOKEN_SECRET));
 app.post('/register/', register.registerPost(db, bcrypt, saltRounds));
 
 app.put('/image', authenticateToken, image.imagePut(db, clarifai));
+
+app.get('/getuser', authenticateToken, getuser.getuser(db));
 
 app.listen(PORT, () => {
     console.log(`app is running on port ${PORT}`);
