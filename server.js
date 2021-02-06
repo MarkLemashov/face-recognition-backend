@@ -30,7 +30,9 @@ app.use(cors());
 
 app.get('/', (req, res) => {
     db.select('*').from('users').then(data => {
-      res.send(data.map(user => user));
+      res.send(data.map(user => {
+        return ({name: user.name, entries: user.entries, faces_detected: user.faces_detected, joined: user.joined});
+      }));
     });
 })
 
