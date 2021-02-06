@@ -30,6 +30,18 @@ const app = express();
 app.use(bodyParser.json())
 app.use(cors());
 
+const authenticateToken = (req, res, next) => {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1];
+  if (token == null) return res.sendStatus(401);
+
+  jwt.verify(token, ACCESS_TOKEN_SECRET, (err, user) => {
+    if (err) return res.sendStatus(403);
+    req.user = user;
+    next();
+  })
+}
+
 app.get('/', (req, res) => {
     db.select('*').from('users').then(data => {
       res.send(data.map(user => {
@@ -47,15 +59,3 @@ app.put('/image', authenticateToken, image.imagePut(db, clarifai));
 app.listen(PORT, () => {
     console.log(`app is running on port ${PORT}`);
 })
-
-const authenticateToken = (req, res, next) => {
-  const authHEader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1];
-  if (token == null) return res.sendStatus(401);
-
-  jwt.verify(token, ACCESS_TOKEN_SECRET, (err, user) => {
-    if (err) return res.sendStatus(403);
-    req.user = user;
-    next();
-  })
-}
