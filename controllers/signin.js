@@ -11,8 +11,8 @@ const signinPost = (db, bcrypt, jwt, ACCESS_TOKEN_SECRET) => (req, res) => {
                     if(result) {
                         db.select('*').from('users').where('email', email).then(user => {
                             // res.status(200).json(user);
-                            const accessToken = jwt.sign({user: user[0].email}, ACCESS_TOKEN_SECRET);
-                            res.status(200).json({email: user[0], accessToken: accessToken});
+                            const accessToken = jwt.sign({email: user[0].email}, ACCESS_TOKEN_SECRET);
+                            res.status(200).json({user: user[0], accessToken: accessToken});
                         });
                     }
                     else {
