@@ -32,14 +32,9 @@ app.use(cors());
 
 app.get('/', (req, res) => {
     db.select('*').from('users').then(data => {
-      // res.send(data.map(user => {
-      //   return ({name: user.name, entries: user.entries, faces_detected: user.faces_detected, joined: user.joined});
-      // }));
-
-      const { token }  = req.body;
-      jwt.verify(token, ACCESS_TOKEN_SECRET, (err, user) => {
-        return res.send(user);
-      })
+      res.send(data.map(user => {
+        return ({name: user.name, entries: user.entries, faces_detected: user.faces_detected, joined: user.joined});
+      }));
     });
 })
 
@@ -47,8 +42,20 @@ app.post('/signin/', signin.signinPost(db, bcrypt, jwt, ACCESS_TOKEN_SECRET));
 
 app.post('/register/', register.registerPost(db, bcrypt, saltRounds));
 
-app.put('/image', image.imagePut(db, clarifai));
+app.put('/image', authenticateToken, image.imagePut(db, clarifai));
 
 app.listen(PORT, () => {
     console.log(`app is running on port ${PORT}`);
 })
+
+const authenticateToken = (req, res, next) => {
+  const authHEader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1];
+  if (token == null) return res.sendStatus(401);
+
+  jwt.verify(token, ACCESS_TOKEN_SECRET, (err, user) => {
+    if (err) return res.sendStatus(403);
+    req.user = user;
+    next();
+  })
+}
