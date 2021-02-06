@@ -1,4 +1,4 @@
-const signinPost = (db, bcrypt) => (req, res) => {
+const signinPost = (db, bcrypt, jwt, ACCESS_TOKEN_SECRET) => (req, res) => {
     const {email, password} = req.body
     db.select('hash').from('login').where('email', email)
         .then(data => {
@@ -9,7 +9,11 @@ const signinPost = (db, bcrypt) => (req, res) => {
                     }
 
                     if(result) {
-                        db.select('*').from('users').where('email', email).then(user => res.status(200).json(user));
+                        db.select('*').from('users').where('email', email).then(user => {
+                            // res.status(200).json(user);
+                            const accessToken = jwt.sign(user, ACCESS_TOKEN_SECRET);
+                            res.status(200).json({acessToken: accessToken});
+                        });
                     }
                     else {
                         res.status(404).json('Incorrect credentials');
