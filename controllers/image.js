@@ -6,11 +6,11 @@ const imagePut = (db, clarifai) => (req, res) => {
             num_of_faces_detected = response.outputs[0].data.regions.length;
 
             // res.status(200).json(response.outputs[0].data.regions); 
-            db('users').where('email', email).increment({entries: 1, faces_detected: num_of_faces_detected}).then(
+            db('users').where('email', email).increment({entries: 1, faces_detected: num_of_faces_detected}).then( data => {
                 db.select('*').from('users').where('email', email).then(user => {
                     res.status(200).json({user: user[0], regions: response.outputs[0].data.regions});
-                })
-            );
+                }).catch(err => res.status(400).json('db error'));
+            }).catch(err => res.status(400).json('db error'));
           }
         )
         .catch(err => res.status(400).json('image link error'));
