@@ -1,0 +1,389 @@
+[33mcommit d6e214e5e69f8b8c81483b88f4acbcbbc79a98ab[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Mar 1 16:37:10 2021 +0200
+
+    fixed email regex
+
+[33mcommit f8464192e47852551da3fd451e82f22f789b5693[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Feb 7 13:26:25 2021 +0200
+
+    roll back
+
+[33mcommit 7b6d546ab48756590761e30fce24c9d1ad29e744[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Feb 7 13:10:38 2021 +0200
+
+    roll back
+
+[33mcommit 9417aaa2713879a33265bf66b277304bd403ea68[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 22:31:28 2021 +0200
+
+    roll back
+
+[33mcommit eb82e51ae30b48652290656437561990c4cd0406[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 21:09:28 2021 +0200
+
+    roll back
+
+[33mcommit 9c2b00b6fc527dba7feeb67333c3e96ab6447d50[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:29:14 2021 +0200
+
+    roll back
+
+[33mcommit 7ddc21375f6ea029f864964877a064d6a49fa52b[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:27:37 2021 +0200
+
+    roll back
+
+[33mcommit 90a3380604f0846ef92dd9dd7a1fd8f1c869d429[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:25:23 2021 +0200
+
+    roll back
+
+[33mcommit 9d29637cbd47108ed4513f6387e3835e1dcec663[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:24:22 2021 +0200
+
+    roll back
+
+[33mcommit b4615d3e008d2f76c7fdc4d659ee9c75c8d0703b[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:23:16 2021 +0200
+
+    roll back
+
+[33mcommit fcc57fd6644b62d6874e6b43e30867f638e3f006[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:20:37 2021 +0200
+
+    roll back
+
+[33mcommit 4d6f82b304abee88990b872d680345339d2a80f1[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:19:25 2021 +0200
+
+    roll back
+
+[33mcommit 6d37d57ff483b5db8ec5be408dc2820d263e237e[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:15:09 2021 +0200
+
+    roll back
+
+[33mcommit 37462171cc5091f9b489bf53de151eb5d6703984[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:14:37 2021 +0200
+
+    roll back
+
+[33mcommit ef810da03f53547e0e943b22b775c32bb8f97646[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:12:57 2021 +0200
+
+    roll back
+
+[33mcommit a6d9bd9da27579ea96e0b85bcbc950bc5108a57c[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:11:08 2021 +0200
+
+    roll back
+
+[33mcommit 86c46d72e08ebed04ecd2a734efb9f8dea708fd8[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 20:07:37 2021 +0200
+
+    roll back
+
+[33mcommit 40f284df8f87cc8b04dab613192d146c7da39bb8[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:50:48 2021 +0200
+
+    roll back
+
+[33mcommit 16ddca4ec74202743a75566c11868827b7f23781[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:43:37 2021 +0200
+
+    roll back
+
+[33mcommit fd8b8c18d16ae1177f11b952d74fa5482ae84753[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:40:28 2021 +0200
+
+    roll back
+
+[33mcommit e9396183aee731736a2ed9bc40613502fcd5889b[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:17:19 2021 +0200
+
+    roll back
+
+[33mcommit 1b005dfdfb7e2f450ecadeab5a9f5d08ebfe2f17[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:09:33 2021 +0200
+
+    roll back
+
+[33mcommit cf39b920472e333cfd450e85ac76ea35ce6fc836[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:07:50 2021 +0200
+
+    roll back
+
+[33mcommit 5194f3c5684e449e1195e8ee715b4e428dac3b21[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 19:04:42 2021 +0200
+
+    roll back
+
+[33mcommit 31a64dbcdfd60a00827ea05e084bd0ecc14b2031[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 18:59:59 2021 +0200
+
+    roll back
+
+[33mcommit dc006796d282fd145d90a688f95d6ebb59f30b32[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 18:56:00 2021 +0200
+
+    roll back
+
+[33mcommit ef15ccabb461bf9e6c24d299b6f548e4bcb724b2[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 18:53:51 2021 +0200
+
+    roll back
+
+[33mcommit fe309aa2da861aa7600f075be53334a035bb1c5d[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 14:20:50 2021 +0200
+
+    roll back
+
+[33mcommit e02a8ef7fe50494ca53107e9ae398e0ebf08135c[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 14:18:11 2021 +0200
+
+    roll back
+
+[33mcommit 34417aa73b689b27797d244fe41ee1f10fe8e505[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 14:14:45 2021 +0200
+
+    roll back
+
+[33mcommit e902c7be44deb9e35a4b6ea26e63d5862ed68057[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 14:12:23 2021 +0200
+
+    roll back
+
+[33mcommit c071ed089917b5829c5e12ac035f31fbcba73641[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sat Feb 6 14:10:32 2021 +0200
+
+    testing mapping '/' data
+
+[33mcommit 8c7489bcb26d2d2516e61f233828b9d4a0e227a5[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 14:37:22 2021 +0200
+
+    optimizing response size
+
+[33mcommit 27350a9907bcb1ec61bbbb433105479b853a7f12[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 14:33:49 2021 +0200
+
+    testing
+
+[33mcommit 8a888f128ac50ffd2ac5316b25789741dfeea555[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 14:10:22 2021 +0200
+
+    added faces detected counter
+
+[33mcommit 4b3b56bd0cca302e22bf347f157fe88d0a07b442[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 14:09:00 2021 +0200
+
+    added faces detected counter
+
+[33mcommit 1a95223f918b4201f59dcef4f4e936e3a57c3d63[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 14:04:51 2021 +0200
+
+    added faces detected counter
+
+[33mcommit 974bdb03f1e664f7a02917ff5f369f1a7a34f02f[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 13:53:13 2021 +0200
+
+    reroll last change
+
+[33mcommit 7ea0a45d48fd4e4c619775e2d28ef8a1d89dd70d[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Sun Jan 31 13:45:57 2021 +0200
+
+    added console log
+
+[33mcommit 3023c813ea2c1652a181d100c25dc15e65cb0e69[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 25 17:20:12 2021 +0200
+
+    fixed erroe messages
+
+[33mcommit 29c9292cba607b76e8fa798edf798742a54580b4[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 25 16:36:58 2021 +0200
+
+    fixed erroe messages
+
+[33mcommit b1aa6aaaac65e76ac7c60cb6db9cf3ff86678047[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 20:11:05 2021 +0200
+
+    validating registration
+
+[33mcommit 7a8d0442a202cf0fff40df7739329bb3621dd7db[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 20:09:11 2021 +0200
+
+    validating registration
+
+[33mcommit 2d0dd7efc52d4574c34ae6686272b675458264f8[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 20:03:22 2021 +0200
+
+    validating registration
+
+[33mcommit 8baa7585ad7b643bb3e8ac0378f931c301450e96[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 20:00:15 2021 +0200
+
+    validating registration
+
+[33mcommit 67e5491fb59f542f9582f9edfb048019a0414262[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 19:49:08 2021 +0200
+
+    validating registration
+
+[33mcommit 327354db3da90559d8ae377a0e9e2c64c474959f[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 19:17:11 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 6fa092e3cd7add47d9002ccbb057705313b9339f[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 19:03:03 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 9882c6fb8bc591bb4759b32f27b08b0154ae7688[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:57:33 2021 +0200
+
+    clarifai api server side
+
+[33mcommit dfed1d7ac5a9b5a52fb9d0623d5a6a899ebb25fd[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:54:30 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 7697670b74c5748368e65a1f72464202b5922efd[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:51:19 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 0fe79ff1e266bf479695abb0eb21fc08b1856f96[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:45:13 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 9c7d0a6a3aa674f7401fb51b7a500f681b46ced3[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:41:49 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 42f3174a4e29ad77eb5525d310c85bbc3b5dbd91[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:37:42 2021 +0200
+
+    clarifai api server side
+
+[33mcommit b1b5b86c0979274e092dd6b9a44a4c64be7221b0[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Tue Jan 5 18:14:34 2021 +0200
+
+    clarifai api server side
+
+[33mcommit 4ee25c3a252ee8be31050940d46e78fd6875ed29[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:58:51 2021 +0200
+
+    database connection
+
+[33mcommit ee504a7f5fedd6aac60e5e8a8cfa41059fd1c61d[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:51:10 2021 +0200
+
+    database connection
+
+[33mcommit 22505218869fe0ac022e4a2839aacd0752c5d9ed[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:49:59 2021 +0200
+
+    database connection
+
+[33mcommit 725121fb01fa39dfa92da7ddbe1125da8c4fafbd[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:31:34 2021 +0200
+
+    sad
+
+[33mcommit 8e39485e0a4738faa978c03775884bf147bb4694[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:28:03 2021 +0200
+
+    added register error catch
+
+[33mcommit 82222b031afc1523ce494feaf0dd6540d0ea1132[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:19:06 2021 +0200
+
+    new
+
+[33mcommit 6e585d05e6bf5ecbf1f46dc0639b49d522354c67[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:16:46 2021 +0200
+
+    sdas
+
+[33mcommit d104df2e388cc9a81c37dc17419c92dcbfed2b0e[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:12:30 2021 +0200
+
+    installed dependencies
+
+[33mcommit fc9d2aa5cb1c3353874b4d72a6c472f714a84b9b[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 23:07:24 2021 +0200
+
+    first commit
+
+[33mcommit 2a0814d19197c401334f8f017f6e71e39dda9c65[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: MarkLemashov <marklemashov049@gmail.com>
+Date:   Mon Jan 4 22:49:43 2021 +0200
+
+    first deploy
